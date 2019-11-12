@@ -1,0 +1,111 @@
+object Form5: TForm5
+  Left = 0
+  Top = 0
+  Caption = 'Exerc'#237'cio 4 - Cria'#231#227'o de componentes'
+  ClientHeight = 411
+  ClientWidth = 783
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 783
+    Height = 411
+    Align = alClient
+    TabOrder = 0
+    ExplicitLeft = -16
+    ExplicitTop = -8
+    ExplicitWidth = 675
+    object GroupBox4: TGroupBox
+      Left = 24
+      Top = 254
+      Width = 187
+      Height = 97
+      Caption = 'Clausulas - Separado por V'#237'rgula(,)'
+      TabOrder = 7
+    end
+    object GroupBox3: TGroupBox
+      Left = 24
+      Top = 151
+      Width = 187
+      Height = 97
+      Caption = 'Campos - Separado por V'#237'rgula(,)'
+      TabOrder = 6
+    end
+    object GroupBox2: TGroupBox
+      Left = 24
+      Top = 40
+      Width = 187
+      Height = 97
+      Caption = 'Tabelas - Separado por V'#237'rgula(,)'
+      TabOrder = 5
+    end
+    object Memo2: TMemo
+      Left = 24
+      Top = 56
+      Width = 187
+      Height = 81
+      Lines.Strings = (
+        'Memo1')
+      TabOrder = 0
+    end
+    object Memo3: TMemo
+      Left = 24
+      Top = 167
+      Width = 187
+      Height = 81
+      Lines.Strings = (
+        'Memo1')
+      TabOrder = 1
+    end
+    object GroupBox1: TGroupBox
+      Left = 256
+      Top = 40
+      Width = 497
+      Height = 311
+      Caption = 'Resultado'
+      TabOrder = 3
+    end
+    object Memo5: TMemo
+      Left = 258
+      Top = 56
+      Width = 495
+      Height = 295
+      Lines.Strings = (
+        'Memo1')
+      TabOrder = 4
+    end
+    object Memo4: TMemo
+      Left = 24
+      Top = 270
+      Width = 187
+      Height = 81
+      Lines.Strings = (
+        'Memo1')
+      TabOrder = 2
+    end
+    object Button1: TButton
+      Left = 66
+      Top = 354
+      Width = 105
+      Height = 25
+      Caption = 'Consultar'
+      TabOrder = 8
+    end
+    object Button2: TButton
+      Left = 80
+      Top = 381
+      Width = 75
+      Height = 25
+      Caption = 'Sair'
+      TabOrder = 9
+    end
+  end
+end

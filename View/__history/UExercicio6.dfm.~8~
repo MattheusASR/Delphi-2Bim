@@ -1,0 +1,133 @@
+object Form7: TForm7
+  Left = 0
+  Top = 0
+  Caption = 'Exerc'#237'cio 6 - Utiliza'#231#227'o de bibliotecas din'#226'micas'
+  ClientHeight = 231
+  ClientWidth = 643
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 643
+    Height = 231
+    Align = alClient
+    TabOrder = 0
+    ExplicitWidth = 616
+    object GroupBox1: TGroupBox
+      Left = 5
+      Top = 5
+      Width = 638
+      Height = 105
+      Caption = 'Quadrado'
+      TabOrder = 0
+      object Label4: TLabel
+        Left = 18
+        Top = 46
+        Width = 27
+        Height = 13
+        Caption = 'Lado:'
+      end
+      object Label3: TLabel
+        Left = 451
+        Top = 46
+        Width = 52
+        Height = 13
+        Caption = 'Resultado:'
+      end
+      object Button1: TButton
+        Left = 359
+        Top = 41
+        Width = 75
+        Height = 25
+        Caption = 'Calcular'
+        TabOrder = 0
+      end
+      object GroupBox4: TGroupBox
+        Left = 178
+        Top = 32
+        Width = 175
+        Height = 57
+        Caption = 'C'#225'lculo'
+        TabOrder = 1
+      end
+    end
+    object GroupBox2: TGroupBox
+      Left = 5
+      Top = 109
+      Width = 638
+      Height = 105
+      Caption = 'GroupBox1'
+      TabOrder = 1
+      object Label1: TLabel
+        Left = 24
+        Top = 40
+        Width = 25
+        Height = 13
+        Caption = 'Raio:'
+      end
+      object Label2: TLabel
+        Left = 451
+        Top = 40
+        Width = 52
+        Height = 13
+        Caption = 'Resultado:'
+      end
+      object Edit3: TEdit
+        Left = 51
+        Top = 40
+        Width = 121
+        Height = 21
+        TabOrder = 0
+        Text = 'Edit1'
+      end
+      object Edit4: TEdit
+        Left = 509
+        Top = 40
+        Width = 121
+        Height = 21
+        TabOrder = 1
+        Text = 'Edit1'
+      end
+      object Button2: TButton
+        Left = 359
+        Top = 40
+        Width = 75
+        Height = 25
+        Caption = 'Button1'
+        TabOrder = 2
+      end
+      object GroupBox3: TGroupBox
+        Left = 178
+        Top = 24
+        Width = 175
+        Height = 57
+        Caption = 'C'#225'lculo'
+        TabOrder = 3
+      end
+    end
+  end
+  object Edit1: TEdit
+    Left = 56
+    Top = 48
+    Width = 121
+    Height = 21
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+  object Edit2: TEdit
+    Left = 514
+    Top = 48
+    Width = 121
+    Height = 21
+    TabOrder = 2
+    Text = 'Edit1'
+  end
+end

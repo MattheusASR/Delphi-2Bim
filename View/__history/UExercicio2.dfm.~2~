@@ -1,0 +1,45 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Exerc'#237'cio 2 '#8211' Classes de convers'#227'o de texto'
+  ClientHeight = 231
+  ClientWidth = 760
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 760
+    Height = 231
+    Align = alClient
+    TabOrder = 0
+    ExplicitLeft = 168
+    ExplicitTop = 112
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+    object GroupBox1: TGroupBox
+      Left = 28
+      Top = 27
+      Width = 249
+      Height = 174
+      Caption = 'Texto Original'
+      TabOrder = 0
+      object Memo1: TMemo
+        Left = 3
+        Top = 15
+        Width = 245
+        Height = 156
+        Lines.Strings = (
+          '')
+        TabOrder = 0
+      end
+    end
+  end
+end

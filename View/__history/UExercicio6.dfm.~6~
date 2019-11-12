@@ -1,0 +1,101 @@
+object Form7: TForm7
+  Left = 0
+  Top = 0
+  Caption = 'Exerc'#237'cio 6 - Utiliza'#231#227'o de bibliotecas din'#226'micas'
+  ClientHeight = 231
+  ClientWidth = 616
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 616
+    Height = 231
+    Align = alClient
+    TabOrder = 0
+    object GroupBox1: TGroupBox
+      Left = 5
+      Top = 5
+      Width = 604
+      Height = 105
+      Caption = 'Quadrado'
+      TabOrder = 0
+      object Label3: TLabel
+        Left = 288
+        Top = 48
+        Width = 145
+        Height = 13
+        Caption = 'Label3'
+      end
+      object GroupBox3: TGroupBox
+        Left = 208
+        Top = 26
+        Width = 161
+        Height = 55
+        Caption = 'C'#225'lculo'
+        TabOrder = 0
+      end
+    end
+    object GroupBox2: TGroupBox
+      Left = 5
+      Top = 109
+      Width = 604
+      Height = 105
+      Caption = 'GroupBox1'
+      TabOrder = 1
+      object Label1: TLabel
+        Left = 24
+        Top = 40
+        Width = 25
+        Height = 13
+        Caption = 'Raio:'
+      end
+      object Label2: TLabel
+        Left = 408
+        Top = 40
+        Width = 52
+        Height = 13
+        Caption = 'Resultado:'
+      end
+      object Edit3: TEdit
+        Left = 81
+        Top = 40
+        Width = 121
+        Height = 21
+        TabOrder = 0
+        Text = 'Edit1'
+      end
+      object Edit4: TEdit
+        Left = 478
+        Top = 40
+        Width = 121
+        Height = 21
+        TabOrder = 1
+        Text = 'Edit1'
+      end
+    end
+  end
+  object Edit1: TEdit
+    Left = 86
+    Top = 48
+    Width = 121
+    Height = 21
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+  object Edit2: TEdit
+    Left = 481
+    Top = 48
+    Width = 121
+    Height = 21
+    TabOrder = 2
+    Text = 'Edit1'
+  end
+end

@@ -1,0 +1,190 @@
+object Form7: TForm7
+  Left = 0
+  Top = 0
+  Caption = 'Exerc'#237'cio 6 - Utiliza'#231#227'o de bibliotecas din'#226'micas'
+  ClientHeight = 223
+  ClientWidth = 643
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 643
+    Height = 223
+    Align = alClient
+    TabOrder = 0
+    ExplicitWidth = 616
+    ExplicitHeight = 231
+    object GroupBox1: TGroupBox
+      Left = 5
+      Top = 5
+      Width = 638
+      Height = 105
+      Caption = 'Quadrado'
+      TabOrder = 0
+      object Label4: TLabel
+        Left = 12
+        Top = 47
+        Width = 30
+        Height = 14
+        Caption = 'Lado:'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+      end
+      object Label3: TLabel
+        Left = 451
+        Top = 46
+        Width = 57
+        Height = 14
+        Caption = 'Resultado:'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+      end
+      object Button1: TButton
+        Left = 359
+        Top = 41
+        Width = 75
+        Height = 25
+        Caption = 'Calcular'
+        TabOrder = 0
+      end
+      object GroupBox4: TGroupBox
+        Left = 178
+        Top = 26
+        Width = 175
+        Height = 47
+        Caption = 'C'#225'lculo'
+        TabOrder = 1
+        object RadioButton3: TRadioButton
+          Left = 86
+          Top = 20
+          Width = 81
+          Height = 17
+          Caption = 'Per'#237'metro'
+          TabOrder = 0
+        end
+        object RadioButton4: TRadioButton
+          Left = 6
+          Top = 20
+          Width = 81
+          Height = 17
+          Caption = #193'rea'
+          TabOrder = 1
+        end
+      end
+    end
+    object GroupBox2: TGroupBox
+      Left = 5
+      Top = 109
+      Width = 638
+      Height = 105
+      Caption = 'GroupBox1'
+      TabOrder = 1
+      object Label1: TLabel
+        Left = 12
+        Top = 42
+        Width = 26
+        Height = 14
+        Caption = 'Raio:'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+      end
+      object Label2: TLabel
+        Left = 451
+        Top = 40
+        Width = 57
+        Height = 14
+        Caption = 'Resultado:'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -12
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+      end
+      object Edit3: TEdit
+        Left = 47
+        Top = 40
+        Width = 121
+        Height = 21
+        TabOrder = 0
+        Text = 'Edit1'
+      end
+      object Edit4: TEdit
+        Left = 509
+        Top = 40
+        Width = 121
+        Height = 21
+        TabOrder = 1
+        Text = 'Edit1'
+      end
+      object Button2: TButton
+        Left = 359
+        Top = 40
+        Width = 75
+        Height = 25
+        Caption = 'Calcular'
+        TabOrder = 2
+      end
+      object GroupBox3: TGroupBox
+        Left = 178
+        Top = 24
+        Width = 175
+        Height = 47
+        Caption = 'C'#225'lculo'
+        TabOrder = 3
+        object RadioButton1: TRadioButton
+          Left = 3
+          Top = 20
+          Width = 81
+          Height = 17
+          Caption = #193'rea'
+          TabOrder = 0
+        end
+        object RadioButton2: TRadioButton
+          Left = 83
+          Top = 20
+          Width = 81
+          Height = 17
+          Caption = 'Per'#237'metro'
+          TabOrder = 1
+        end
+      end
+    end
+  end
+  object Edit1: TEdit
+    Left = 52
+    Top = 49
+    Width = 121
+    Height = 21
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+  object Edit2: TEdit
+    Left = 514
+    Top = 49
+    Width = 121
+    Height = 21
+    TabOrder = 2
+    Text = 'Edit1'
+  end
+end

@@ -1,0 +1,43 @@
+object Form6: TForm6
+  Left = 0
+  Top = 0
+  Caption = 'Exerc'#237'cio 5 - Cria'#231#227'o de Arquivos'
+  ClientHeight = 120
+  ClientWidth = 641
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 641
+    Height = 120
+    Align = alClient
+    TabOrder = 0
+    ExplicitLeft = 168
+    ExplicitTop = 112
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+    object Label1: TLabel
+      Left = 32
+      Top = 53
+      Width = 83
+      Height = 13
+      Caption = 'Local do Arquivo:'
+    end
+    object Edit1: TEdit
+      Left = 128
+      Top = 50
+      Width = 121
+      Height = 21
+      TabOrder = 0
+      Text = 'Edit1'
+    end
+  end
+end

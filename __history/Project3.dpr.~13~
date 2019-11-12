@@ -1,0 +1,24 @@
+program Project3;
+
+uses
+  Vcl.Forms,
+  UMain in 'UMain.pas' {Form1},
+  UExercicio1 in 'View\UExercicio1.pas' {Form2},
+  UExercicio2 in 'View\UExercicio2.pas' {Form3},
+  UExercicio3 in 'View\UExercicio3.pas' {Form4},
+  UExercicio4 in 'View\UExercicio4.pas' {Form5},
+  UExercicio5 in 'View\UExercicio5.pas' {Form6};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TFormExercicio1, FormExercicio1);
+  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(TForm4, Form4);
+  Application.CreateForm(TFormExercicio4, FormExercicio4);
+  Application.CreateForm(TForm6, Form6);
+  Application.Run;
+end.
