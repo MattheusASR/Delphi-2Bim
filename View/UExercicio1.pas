@@ -26,7 +26,7 @@ type
     procedure btnExibirNomesClick(Sender: TObject);
     procedure btnContarNomesClick(Sender: TObject);
     procedure btnRemovePrimeiroClick(Sender: TObject);
-    procedure RemoveElemento(aArray: Array of String; const aPosicao: integer);
+    procedure btnSairClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -34,16 +34,34 @@ type
     { Public declarations }
   end;
 
+  TStringArray = array of string;
+  procedure RemoveElemento(var aArray: TStringArray; const aPosicao: integer);
+
 var
   FormExercicio1: TForm2;
-  Vetor: Array of String;
+  Vetor: array of String;
   I: Integer;
 
 implementation
 
 {$R *.dfm}
 
+
 { TForm2 }
+
+
+procedure RemoveElemento(var aArray: TStringArray; const aPosicao: integer);
+var
+  _j : integer;
+begin
+
+  for _j := aPosicao to High(aArray)-1 do
+  begin
+    aArray[_j] := aArray[_j+1];
+  end;
+
+  setLength(aArray, high(aArray)-1);
+end;
 
 procedure TForm2.btnContarNomesClick(Sender: TObject);
 var
@@ -74,11 +92,25 @@ begin
 
   Vetor[I]:= edtNome.Text;
   I:= I + 1;
+
 end;
 
 procedure TForm2.btnRemovePrimeiroClick(Sender: TObject);
+var
+ _j, _i : integer;
 begin
-  Delete(Vetor, 0);
+  _i := 0;
+  _j := Low(Vetor);
+
+  Delete(Vetor, _j, 1);
+
+end;
+
+procedure TForm2.btnSairClick(Sender: TObject);
+begin
+  Finalize(Vetor);
+
+  Close;
 end;
 
 constructor TForm2.Create(AOwner: TComponent);
@@ -86,19 +118,4 @@ begin
   inherited;
 
 end;
-
-procedure TForm2.RemoveElemento(aArray: array of String; const aPosicao: integer);
-var
-  l, j: integer;
-begin
-  l := Length(aArray);
-
-  for aPosicao := 0 to l do
-  begin
-    aArray[aPosicao] := aArray[aPosicao + 1];
-  end;
-
-
-end;
-
 end.

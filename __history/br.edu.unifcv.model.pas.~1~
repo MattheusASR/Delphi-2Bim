@@ -1,0 +1,24 @@
+unit br.edu.unifcv.exportacao;
+
+interface
+
+type
+  TStringArray = array of string;
+  procedure RemoveElemento(var aArray: TStringArray; const aPosicao: integer);
+
+implementation
+
+procedure RemoveElemento(var aArray: TStringArray; const aPosicao: integer);
+var
+  _j : integer;
+begin
+
+  for _j := aPosicao to High(aArray)-1 do
+  begin
+    aArray[_j] := aArray[_j+1];
+  end;
+
+  setLength(aArray, high(aArray)-1);
+end;
+
+end.
