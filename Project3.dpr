@@ -13,7 +13,10 @@ uses
   br.edu.unifcv.exportacao in 'br.edu.unifcv.exportacao.pas',
   br.edu.unifcv.exporta.texto in 'br.edu.unifcv.exporta.texto.pas',
   br.edu.unifcv.exporta.invertido in 'br.edu.unifcv.exporta.invertido.pas',
-  UPesquisaCliente in 'View\UPesquisaCliente.pas' {Form9};
+  UPesquisaCliente in 'View\UPesquisaCliente.pas' {Form9},
+  br.edu.unifcv.exporta.primeiramauiscula in 'br.edu.unifcv.exporta.primeiramauiscula.pas',
+  br.edu.unifcv.exporta.ordenada in 'br.edu.unifcv.exporta.ordenada.pas',
+  Thread in 'Thread.pas';
 
 {$R *.res}
 
@@ -27,7 +30,7 @@ begin
   Application.CreateForm(TForm5, FormExercicio4);
   Application.CreateForm(TForm6, FormExercicio5);
   Application.CreateForm(TForm7, FormExercicio6);
-  Application.CreateForm(TForm9, FormExercicio7);
+  Application.CreateForm(TForm8, FormExercicio7);
   Application.CreateForm(TForm9, Form9);
   Application.Run;
 end.

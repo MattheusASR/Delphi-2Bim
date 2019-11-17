@@ -56,8 +56,6 @@ object Form4: TForm4
     Height = 282
     Align = alClient
     TabOrder = 6
-    ExplicitTop = 8
-    ExplicitWidth = 542
     object Panel2: TPanel
       Left = 1
       Top = 240
@@ -65,7 +63,6 @@ object Form4: TForm4
       Height = 41
       Align = alBottom
       TabOrder = 0
-      ExplicitWidth = 540
       object Button2: TButton
         Left = 7
         Top = 11
@@ -105,6 +102,7 @@ object Form4: TForm4
         Height = 22
         Caption = 'Pesquisar'
         TabOrder = 4
+        OnClick = Button6Click
       end
       object Button7: TButton
         Left = 401
@@ -113,6 +111,7 @@ object Form4: TForm4
         Height = 22
         Caption = 'Sair'
         TabOrder = 5
+        OnClick = Button7Click
       end
     end
   end

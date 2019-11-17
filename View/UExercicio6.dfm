@@ -126,7 +126,6 @@ object Form7: TForm7
         Width = 121
         Height = 21
         TabOrder = 0
-        Text = 'Edit1'
       end
       object Edit4: TEdit
         Left = 509
@@ -134,7 +133,6 @@ object Form7: TForm7
         Width = 121
         Height = 21
         TabOrder = 1
-        Text = 'Edit1'
       end
       object Button2: TButton
         Left = 359
@@ -171,12 +169,11 @@ object Form7: TForm7
     end
   end
   object Edit1: TEdit
-    Left = 52
-    Top = 49
+    Left = 53
+    Top = 48
     Width = 121
     Height = 21
     TabOrder = 1
-    Text = 'Edit1'
   end
   object Edit2: TEdit
     Left = 514
@@ -184,6 +181,5 @@ object Form7: TForm7
     Width = 121
     Height = 21
     TabOrder = 2
-    Text = 'Edit1'
   end
 end

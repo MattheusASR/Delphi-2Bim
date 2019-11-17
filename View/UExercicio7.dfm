@@ -49,7 +49,7 @@ object Form8: TForm8
     end
     object Label3: TLabel
       Left = 387
-      Top = 23
+      Top = 22
       Width = 59
       Height = 14
       Caption = 'Sleep (ms)'
@@ -75,14 +75,14 @@ object Form8: TForm8
     end
     object Edit3: TEdit
       Left = 387
-      Top = 40
+      Top = 38
       Width = 55
       Height = 21
       TabOrder = 0
     end
     object Edit4: TEdit
       Left = 387
-      Top = 83
+      Top = 86
       Width = 55
       Height = 21
       TabOrder = 1
@@ -101,6 +101,7 @@ object Form8: TForm8
         Height = 25
         Caption = 'Executar'
         TabOrder = 0
+        OnClick = Button1Click
       end
       object Button2: TButton
         Left = 230
@@ -109,24 +110,21 @@ object Form8: TForm8
         Height = 25
         Caption = 'Sair'
         TabOrder = 1
+        OnClick = Button2Click
       end
     end
-    object Memo1: TMemo
+    object ProgressBar1: TProgressBar
       Left = 24
       Top = 38
       Width = 345
       Height = 21
-      Lines.Strings = (
-        '')
       TabOrder = 3
     end
-    object Memo2: TMemo
-      Left = 23
+    object ProgressBar2: TProgressBar
+      Left = 24
       Top = 82
       Width = 345
       Height = 21
-      Lines.Strings = (
-        '')
       TabOrder = 4
     end
   end

@@ -27,6 +27,8 @@ type
     Button5: TButton;
     Button6: TButton;
     Button7: TButton;
+    procedure Button6Click(Sender: TObject);
+    procedure Button7Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -38,7 +40,28 @@ var
 
 implementation
 
+uses
+  UPesquisaCliente;
+
 {$R *.dfm}
 
+
+procedure TForm4.Button6Click(Sender: TObject);
+var
+  FFormPesquisa: TForm9;
+begin
+  FFormPesquisa := TForm9.Create(Self);
+
+  try
+    FFormPesquisa.ShowModal;
+  finally
+    FFormPesquisa.Free;
+  end;
+end;
+
+procedure TForm4.Button7Click(Sender: TObject);
+begin
+  Close;
+end;
 
 end.

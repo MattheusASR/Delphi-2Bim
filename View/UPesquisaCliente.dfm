@@ -57,6 +57,7 @@ object Form9: TForm9
       Height = 25
       Caption = 'Cancelar'
       TabOrder = 3
+      OnClick = Button3Click
     end
     object DBGrid1: TDBGrid
       Left = 0

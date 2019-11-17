@@ -16,6 +16,7 @@ type
     Button2: TButton;
     Button3: TButton;
     DBGrid1: TDBGrid;
+    procedure Button3Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -28,5 +29,10 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm9.Button3Click(Sender: TObject);
+begin
+  Close;
+end;
 
 end.

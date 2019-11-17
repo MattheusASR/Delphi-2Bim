@@ -8,6 +8,11 @@ uses
   Vcl.CheckLst;
 
 type
+  TStringArray = array of string;
+
+  procedure RemoveElemento(var aArray: TStringArray; const aPosicao: integer);
+
+type
   TForm2 = class(TForm)
     Panel1: TPanel;
     GroupBox1: TGroupBox;
@@ -27,20 +32,18 @@ type
     procedure btnContarNomesClick(Sender: TObject);
     procedure btnRemovePrimeiroClick(Sender: TObject);
     procedure btnSairClick(Sender: TObject);
+    procedure btnRemoveUltimoClick(Sender: TObject);
   private
     { Private declarations }
+    Vetor: TStringArray;
+    I: Integer;
   public
     constructor Create(AOwner: TComponent); override;
     { Public declarations }
   end;
 
-  TStringArray = array of string;
-  procedure RemoveElemento(var aArray: TStringArray; const aPosicao: integer);
-
 var
   FormExercicio1: TForm2;
-  Vetor: array of String;
-  I: Integer;
 
 implementation
 
@@ -49,18 +52,29 @@ implementation
 
 { TForm2 }
 
-
 procedure RemoveElemento(var aArray: TStringArray; const aPosicao: integer);
-var
-  _j : integer;
 begin
 
-  for _j := aPosicao to High(aArray)-1 do
+  if aPosicao > High(aArray) then
+    Exit;
+
+  if aPosicao < Low(aArray) then
+    Exit;
+
+  if aPosicao = High(aArray) then
   begin
-    aArray[_j] := aArray[_j+1];
+    SetLength(aArray, Length(aArray) - 1);
+    Exit;
   end;
 
-  setLength(aArray, high(aArray)-1);
+  Finalize(aArray[aPosicao]);
+
+  System.Move(aArray[aPosicao +1], aArray[aPosicao],
+
+  (Length(aArray) - aPosicao -1) * SizeOf(string) + 1);
+
+  SetLength(aArray, Length(aArray) - 1);
+
 end;
 
 procedure TForm2.btnContarNomesClick(Sender: TObject);
@@ -88,22 +102,23 @@ end;
 
 procedure TForm2.btnInserirClick(Sender: TObject);
 begin
+
   SetLength(Vetor, I + 1);
 
   Vetor[I]:= edtNome.Text;
   I:= I + 1;
-
 end;
 
 procedure TForm2.btnRemovePrimeiroClick(Sender: TObject);
-var
- _j, _i : integer;
 begin
-  _i := 0;
-  _j := Low(Vetor);
+  RemoveElemento(Vetor, 0);
+  I:= I -1;
+end;
 
-  Delete(Vetor, _j, 1);
-
+procedure TForm2.btnRemoveUltimoClick(Sender: TObject);
+begin
+  RemoveElemento(Vetor, High(Vetor));
+  I:= I -1;
 end;
 
 procedure TForm2.btnSairClick(Sender: TObject);
@@ -118,4 +133,5 @@ begin
   inherited;
 
 end;
+
 end.

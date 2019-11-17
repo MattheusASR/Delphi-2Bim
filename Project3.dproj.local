@@ -2,8 +2,8 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2019/10/28 19:37:04.000.411,=C:\Users\Pessoal\Documents\Embarcadero\Unit1.pas</Transaction>
-    <Transaction>2019/10/28 19:55:10.000.310,C:\Users\Pessoal\Documents\Embarcadero\2Bim\UMain.dfm=C:\Users\Pessoal\Documents\Embarcadero\Unit1.dfm</Transaction>
     <Transaction>2019/10/28 19:55:10.000.310,C:\Users\Pessoal\Documents\Embarcadero\2Bim\UMain.pas=C:\Users\Pessoal\Documents\Embarcadero\Unit1.pas</Transaction>
+    <Transaction>2019/10/28 19:55:10.000.310,C:\Users\Pessoal\Documents\Embarcadero\2Bim\UMain.dfm=C:\Users\Pessoal\Documents\Embarcadero\Unit1.dfm</Transaction>
     <Transaction>2019/10/28 20:45:37.000.380,=C:\Users\Pessoal\Documents\Embarcadero\Unit2.pas</Transaction>
     <Transaction>2019/10/28 20:46:08.000.639,C:\Users\Pessoal\Documents\Embarcadero\2Bim\View\UExercicio1.dfm=C:\Users\Pessoal\Documents\Embarcadero\Unit2.dfm</Transaction>
     <Transaction>2019/10/28 20:46:08.000.639,C:\Users\Pessoal\Documents\Embarcadero\2Bim\View\UExercicio1.pas=C:\Users\Pessoal\Documents\Embarcadero\Unit2.pas</Transaction>
@@ -16,21 +16,21 @@
     <Transaction>2019/10/28 21:45:47.000.140,C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit3.dfm=C:\Users\Pessoal\Documents\Embarcadero\2Bim\View\UExercicio2.dfm</Transaction>
     <Transaction>2019/10/28 21:45:47.000.140,C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit3.pas=C:\Users\Pessoal\Documents\Embarcadero\2Bim\View\UExercicio2.pas</Transaction>
     <Transaction>2019/10/30 21:34:29.000.803,=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit4.pas</Transaction>
-    <Transaction>2019/10/30 21:37:55.000.591,C:\Users\Pessoal\Documents\Embarcadero\2Bim\View\UExercicio3.dfm=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit4.dfm</Transaction>
     <Transaction>2019/10/30 21:37:55.000.591,C:\Users\Pessoal\Documents\Embarcadero\2Bim\View\UExercicio3.pas=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit4.pas</Transaction>
+    <Transaction>2019/10/30 21:37:55.000.591,C:\Users\Pessoal\Documents\Embarcadero\2Bim\View\UExercicio3.dfm=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit4.dfm</Transaction>
     <Transaction>2019/11/05 20:34:45.000.975,=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit1.pas</Transaction>
     <Transaction>2019/11/05 20:34:59.000.686,=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit5.pas</Transaction>
     <Transaction>2019/11/05 20:35:14.000.401,C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit5.pas=C:\Users\Pessoal\Documents\Embarcadero\2Bim\View\UExercicio4.pas</Transaction>
     <Transaction>2019/11/05 20:35:14.000.401,C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit5.dfm=C:\Users\Pessoal\Documents\Embarcadero\2Bim\View\UExercicio4.dfm</Transaction>
     <Transaction>2019/11/05 21:50:08.000.684,=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit6.pas</Transaction>
-    <Transaction>2019/11/05 21:50:24.000.194,C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit6.pas=C:\Users\Pessoal\Documents\Embarcadero\2Bim\View\UExercicio5.pas</Transaction>
     <Transaction>2019/11/05 21:50:24.000.194,C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit6.dfm=C:\Users\Pessoal\Documents\Embarcadero\2Bim\View\UExercicio5.dfm</Transaction>
+    <Transaction>2019/11/05 21:50:24.000.194,C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit6.pas=C:\Users\Pessoal\Documents\Embarcadero\2Bim\View\UExercicio5.pas</Transaction>
     <Transaction>2019/11/05 22:05:37.000.360,=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit7.pas</Transaction>
     <Transaction>2019/11/05 22:05:49.000.713,C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit7.dfm=C:\Users\Pessoal\Documents\Embarcadero\2Bim\View\UExercicio6.dfm</Transaction>
     <Transaction>2019/11/05 22:05:49.000.713,C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit7.pas=C:\Users\Pessoal\Documents\Embarcadero\2Bim\View\UExercicio6.pas</Transaction>
     <Transaction>2019/11/05 23:42:06.000.573,=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit8.pas</Transaction>
-    <Transaction>2019/11/05 23:42:18.000.373,C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit8.dfm=C:\Users\Pessoal\Documents\Embarcadero\2Bim\View\UExercicio7.dfm</Transaction>
     <Transaction>2019/11/05 23:42:18.000.373,C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit8.pas=C:\Users\Pessoal\Documents\Embarcadero\2Bim\View\UExercicio7.pas</Transaction>
+    <Transaction>2019/11/05 23:42:18.000.373,C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit8.dfm=C:\Users\Pessoal\Documents\Embarcadero\2Bim\View\UExercicio7.dfm</Transaction>
     <Transaction>2019/11/11 22:13:41.000.243,=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit1.pas</Transaction>
     <Transaction>2019/11/11 22:14:33.000.163,C:\Users\Pessoal\Documents\Embarcadero\2Bim\br.edu.unifcv.exportacao.pas=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit1.pas</Transaction>
     <Transaction>2019/11/11 22:17:01.000.481,=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit9.pas</Transaction>
@@ -40,11 +40,17 @@
     <Transaction>2019/11/11 22:18:35.000.809,C:\Users\Pessoal\Documents\Embarcadero\2Bim\br.edu.unifcv.exportainvertido.pas=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit1.pas</Transaction>
     <Transaction>2019/11/11 22:18:52.000.563,C:\Users\Pessoal\Documents\Embarcadero\2Bim\br.edu.unifcv.exporta.invertido.pas=C:\Users\Pessoal\Documents\Embarcadero\2Bim\br.edu.unifcv.exportainvertido.pas</Transaction>
     <Transaction>2019/11/11 22:18:59.000.158,C:\Users\Pessoal\Documents\Embarcadero\2Bim\br.edu.unifcv.exporta.texto.pas=C:\Users\Pessoal\Documents\Embarcadero\2Bim\br.edu.unifcv.exportatexto.pas</Transaction>
-    <Transaction>2019/11/12 20:15:37.831,C:\Users\Pessoal\Documents\Embarcadero\2Bim\br.edu.unifcv.model.pas=C:\Users\Pessoal\Documents\Embarcadero\2Bim\br.edu.unifcv.exportacao.pas</Transaction>
-    <Transaction>2019/11/12 20:24:50.222,=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit9.pas</Transaction>
-    <Transaction>2019/11/12 20:25:14.679,C:\Users\Pessoal\Documents\Embarcadero\2Bim\View\UPesquisaCliente.dfm=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit9.dfm</Transaction>
-    <Transaction>2019/11/12 20:25:14.679,C:\Users\Pessoal\Documents\Embarcadero\2Bim\View\UPesquisaCliente.pas=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit9.pas</Transaction>
-    <Transaction>2019/11/12 20:43:25.396,=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit1.pas</Transaction>
-    <Transaction>2019/11/12 20:47:47.545,C:\Users\Pessoal\Documents\Embarcadero\2Bim\br.edu.unifcv.exportacao.pas=C:\Users\Pessoal\Documents\Embarcadero\2Bim\br.edu.unifcv.model.pas</Transaction>
+    <Transaction>2019/11/12 20:15:37.000.831,C:\Users\Pessoal\Documents\Embarcadero\2Bim\br.edu.unifcv.model.pas=C:\Users\Pessoal\Documents\Embarcadero\2Bim\br.edu.unifcv.exportacao.pas</Transaction>
+    <Transaction>2019/11/12 20:24:50.000.222,=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit9.pas</Transaction>
+    <Transaction>2019/11/12 20:25:14.000.679,C:\Users\Pessoal\Documents\Embarcadero\2Bim\View\UPesquisaCliente.pas=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit9.pas</Transaction>
+    <Transaction>2019/11/12 20:25:14.000.679,C:\Users\Pessoal\Documents\Embarcadero\2Bim\View\UPesquisaCliente.dfm=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit9.dfm</Transaction>
+    <Transaction>2019/11/12 20:43:25.000.396,=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit1.pas</Transaction>
+    <Transaction>2019/11/12 20:47:47.000.545,C:\Users\Pessoal\Documents\Embarcadero\2Bim\br.edu.unifcv.exportacao.pas=C:\Users\Pessoal\Documents\Embarcadero\2Bim\br.edu.unifcv.model.pas</Transaction>
+    <Transaction>2019/11/13 21:21:13.000.391,=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit1.pas</Transaction>
+    <Transaction>2019/11/13 21:21:46.000.235,C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit1.pas=C:\Users\Pessoal\Documents\Embarcadero\2Bim\br.edu.unifcv.exporta.primeiramauiscula.pas</Transaction>
+    <Transaction>2019/11/13 21:21:49.000.979,=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit1.pas</Transaction>
+    <Transaction>2019/11/13 21:22:11.000.551,C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit1.pas=C:\Users\Pessoal\Documents\Embarcadero\2Bim\br.edu.unifcv.exporta.ordenada.pas</Transaction>
+    <Transaction>2019/11/14 00:18:31.000.105,=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit1.pas</Transaction>
+    <Transaction>2019/11/14 00:18:43.000.689,C:\Users\Pessoal\Documents\Embarcadero\2Bim\Unit1.pas=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Thread.pas</Transaction>
   </Transactions>
 </BorlandProject>

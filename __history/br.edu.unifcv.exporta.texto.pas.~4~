@@ -1,0 +1,15 @@
+unit br.edu.unifcv.exporta.texto;
+
+interface
+
+uses
+  br.edu.unifcv.exportacao;
+
+type
+  TExportaTexto = class
+
+  end;
+
+implementation
+
+end.
