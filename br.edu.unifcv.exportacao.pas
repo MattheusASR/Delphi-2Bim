@@ -8,10 +8,14 @@ type
 //    function exportar;
   end;
 
-  TExportaTexto = class(TExportacao)
-
-  end;
-
 implementation
+
+uses
+ UExercicio2, br.edu.unifcv.exporta.texto;
+
+//function TExportacao.exportar;
+//begin
+//  result;
+//end;
 
 end.

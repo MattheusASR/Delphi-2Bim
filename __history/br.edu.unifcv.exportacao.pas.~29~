@@ -1,0 +1,13 @@
+unit br.edu.unifcv.exportacao;
+
+interface
+
+type
+  TExportacao = class
+  public
+    function exportar; override;
+  end;
+
+implementation
+
+end.

@@ -58,6 +58,7 @@
         <UWP_DelphiLogo44>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_44.png</UWP_DelphiLogo44>
         <UWP_DelphiLogo150>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_150.png</UWP_DelphiLogo150>
         <SanitizedProjectName>Project3</SanitizedProjectName>
+        <DCC_OutputDRCFile>true</DCC_OutputDRCFile>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win32)'!=''">
         <DCC_UsePackage>DBXSqliteDriver;IndyIPCommon;RESTComponents;bindcompdbx;DBXInterBaseDriver;vcl;IndyIPServer;vclactnband;vclFireDAC;IndySystem;tethering;svnui;dsnapcon;FireDACADSDriver;FireDACMSAccDriver;fmxFireDAC;vclimg;TeeDB;FireDAC;vcltouch;vcldb;bindcompfmx;svn;FireDACSqliteDriver;FireDACPgDriver;ibmonitor;inetdb;FMXTee;soaprtl;DbxCommonDriver;FmxTeeUI;ibxpress;fmx;FireDACIBDriver;fmxdae;xmlrtl;soapmidas;ibxbindings;fmxobj;vclwinx;vclib;rtl;Tee;DbxClientDriver;CustomIPTransport;vcldsnap;dbexpress;IndyCore;vclx;bindcomp;appanalytics;dsnap;FireDACCommon;IndyIPClient;bindcompvcl;RESTBackendComponents;TeeUI;VCLRESTComponents;soapserver;dbxcds;VclSmp;adortl;vclie;bindengine;DBXMySQLDriver;CloudService;dsnapxml;FireDACMySQLDriver;dbrtl;IndyProtocols;inetdbxpress;FireDACCommonODBC;FireDACCommonDriver;trampo;inet;fmxase;$(DCC_UsePackage)</DCC_UsePackage>
@@ -160,6 +161,24 @@
                 <Source>
                     <Source Name="MainSource">Project3.dpr</Source>
                 </Source>
+                <Language>
+                    <Language Name="ProjectLang">$00000416</Language>
+                </Language>
+                <Resource_DLL_Projects>
+                    <Resource_DLL_Projects Name="Item0">Português (Brasil)*$00000416*PTB*PTB</Resource_DLL_Projects>
+                </Resource_DLL_Projects>
+                <RDP_Source_Files>
+                    <RDP_Source_Files Name="Item0">UMain.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item1">View\UExercicio1.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item2">View\UExercicio2.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item3">View\UExercicio3.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item4">View\UExercicio4.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item5">View\UExercicio5.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item6">View\UExercicio6.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item7">View\UExercicio7.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item8">View\UPesquisaCliente.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item9">Win32\Debug\Project3.drc</RDP_Source_Files>
+                </RDP_Source_Files>
             </Delphi.Personality>
             <Deployment Version="3">
                 <DeployFile LocalName="Win32\Debug\Project3.exe" Configuration="Debug" Class="ProjectOutput">

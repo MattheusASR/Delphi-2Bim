@@ -94,23 +94,23 @@ object Form8: TForm8
       Height = 41
       Align = alBottom
       TabOrder = 2
-      object Button1: TButton
+      object btExecutar: TButton
         Left = 133
         Top = 8
         Width = 75
         Height = 25
         Caption = 'Executar'
         TabOrder = 0
-        OnClick = Button1Click
+        OnClick = btExecutarClick
       end
-      object Button2: TButton
+      object btSair: TButton
         Left = 230
         Top = 8
         Width = 75
         Height = 25
         Caption = 'Sair'
         TabOrder = 1
-        OnClick = Button2Click
+        OnClick = btSairClick
       end
     end
     object ProgressBar1: TProgressBar
@@ -118,6 +118,7 @@ object Form8: TForm8
       Top = 38
       Width = 345
       Height = 21
+      Smooth = True
       TabOrder = 3
     end
     object ProgressBar2: TProgressBar
@@ -125,6 +126,8 @@ object Form8: TForm8
       Top = 82
       Width = 345
       Height = 21
+      Enabled = False
+      Smooth = True
       TabOrder = 4
     end
   end

@@ -1,0 +1,21 @@
+unit br.edu.unifcv.exportacao;
+
+interface
+
+type
+  TExportacao = class
+  public
+    function exportar; override;
+  end;
+
+implementation
+
+uses
+ UExercicio2;
+
+function TExportacao.exportar;
+begin
+
+end;
+
+end.

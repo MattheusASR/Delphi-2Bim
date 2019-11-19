@@ -1,0 +1,15 @@
+unit br.edu.unifcv.exporta.invertido;
+
+interface
+
+uses
+  br.edu.unifcv.exporta.texto;
+
+type
+  TExportaInvertido = class(TExportaTexto)
+
+  end;
+
+implementation
+
+end.

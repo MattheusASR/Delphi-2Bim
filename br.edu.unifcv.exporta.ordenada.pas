@@ -2,8 +2,11 @@ unit br.edu.unifcv.exporta.ordenada;
 
 interface
 
+uses
+  br.edu.unifcv.exporta.texto;
+
 type
-  TExportaOrdenada = class
+  TExportaOrdenado = class(TExportaTexto)
 
   end;
 

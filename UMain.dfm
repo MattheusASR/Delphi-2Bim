@@ -63,4 +63,18 @@ object Form1: TForm1
       end
     end
   end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=C:\Users\Pessoal\Documents\Embarcadero\2Bim\Database.db'
+      'DriverID=SQLite')
+    Left = 16
+    Top = 64
+  end
+  object FDQuery1: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'select * from pessoa;')
+    Left = 16
+    Top = 120
+  end
 end
